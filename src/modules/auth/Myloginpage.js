@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Myloginpage() {
     return (
@@ -7,6 +8,10 @@ function Myloginpage() {
                 <div className='col-sm-5 '>
                     <div className='container-fluid border bg-light shadow p-5 rounded'>
                         <div className='row'>
+                            <div className='col-12 text-center'>
+                                <h3>Login page</h3>
+                                <hr/>
+                            </div>
                             <div className='col-12'>
                                 <div class="mb-3">
                                     <label class="form-label">Email address</label>
@@ -23,6 +28,7 @@ function Myloginpage() {
                                 <div class="mb-3">
                                    <input type='button' value="login" className="btn btn-success" />
                                    <input type='button' value="cancel" className="btn btn-danger ms-3" />
+                                   <Link to="registor">Registor now</Link>
                                 </div>
                             </div>
                         </div>
