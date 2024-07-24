@@ -10,6 +10,8 @@ import Myerrorpage from './modules/shares/Myerrorpage';
 import Mylandingpage from './modules/dashboard/Mylandingpage';
 import Myhomepage from './modules/dashboard/Myhomepage';
 import Myaboutpage from './modules/components/Myaboutpage';
+import Mystatepage from './modules/components/Mystatepage';
+import Mainpage from './modules/components/Mainpage';
 
 
 
@@ -24,6 +26,9 @@ root.render(
         <Route path='dashboard' element={<Mylandingpage/>}>
             <Route path='' element={<Myhomepage/>}></Route>
             <Route path='about' element={<Myaboutpage/>}></Route>
+            <Route path='state' element={<Mystatepage/>}></Route>
+            <Route path='props' element={<Mainpage/>}></Route>
+            
             <Route path='*' element={<Myerrorpage/>}></Route>
         </Route>
         <Route path='*' element={<Myerrorpage/>}></Route>
