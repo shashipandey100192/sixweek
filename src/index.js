@@ -12,6 +12,8 @@ import Myhomepage from './modules/dashboard/Myhomepage';
 import Myaboutpage from './modules/components/Myaboutpage';
 import Mystatepage from './modules/components/Mystatepage';
 import Mainpage from './modules/components/Mainpage';
+import Myfetchdatapage from './modules/components/Myfetchdatapage';
+import Myaxiosdatapage from './modules/components/Myaxiosdatapage';
 
 
 
@@ -28,6 +30,8 @@ root.render(
             <Route path='about' element={<Myaboutpage/>}></Route>
             <Route path='state' element={<Mystatepage/>}></Route>
             <Route path='props' element={<Mainpage/>}></Route>
+            <Route path='fetchpage' element={<Myfetchdatapage/>}></Route>
+            <Route path='axiospage' element={<Myaxiosdatapage/>}></Route>
             
             <Route path='*' element={<Myerrorpage/>}></Route>
         </Route>

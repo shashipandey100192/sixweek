@@ -16,7 +16,8 @@ function Mysidebar() {
           <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li><Link to="state" className="link-body-emphasis d-inline-flex text-decoration-none rounded">state</Link></li>
             <li><Link to="props" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Props</Link></li>
-            <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">data maping</a></li>
+            <li><Link to="axiospage" className="link-body-emphasis d-inline-flex text-decoration-none rounded">axios</Link></li>
+            <li><Link to="fetchpage" className="link-body-emphasis d-inline-flex text-decoration-none rounded">fetch</Link></li>
           </ul>
         </div>
       </li>
