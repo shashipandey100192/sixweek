@@ -14,6 +14,8 @@ import Mystatepage from './modules/components/Mystatepage';
 import Mainpage from './modules/components/Mainpage';
 import Myfetchdatapage from './modules/components/Myfetchdatapage';
 import Myaxiosdatapage from './modules/components/Myaxiosdatapage';
+import Mydetailspage from './modules/components/Mydetailspage';
+import Mycharts from './modules/components/Mycharts';
 
 
 
@@ -32,6 +34,8 @@ root.render(
             <Route path='props' element={<Mainpage/>}></Route>
             <Route path='fetchpage' element={<Myfetchdatapage/>}></Route>
             <Route path='axiospage' element={<Myaxiosdatapage/>}></Route>
+            <Route path='axiospage/details/:id' element={<Mydetailspage/>}></Route>
+            <Route path='mychart' element={<Mycharts/>}></Route>
             
             <Route path='*' element={<Myerrorpage/>}></Route>
         </Route>

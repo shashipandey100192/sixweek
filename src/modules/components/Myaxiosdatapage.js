@@ -44,7 +44,7 @@ useEffect(()=>{
                                 <td>{d.title}</td>
                                 <td >{d.body}</td>
                                 <td width={200} className='text-center'>
-                                    <Link to="" className="btn btn-sm btn-primary">View</Link>
+                                    <Link to={"details/"+d.id} className="btn btn-sm btn-primary">View</Link>
                                     <Link to="" className="btn btn-sm btn-danger ms-2">Del</Link>
                                     <Link to="" className="btn btn-sm btn-warning ms-2">Edit</Link>
                                 </td>

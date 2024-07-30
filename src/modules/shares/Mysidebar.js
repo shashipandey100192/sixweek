@@ -18,6 +18,7 @@ function Mysidebar() {
             <li><Link to="props" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Props</Link></li>
             <li><Link to="axiospage" className="link-body-emphasis d-inline-flex text-decoration-none rounded">axios</Link></li>
             <li><Link to="fetchpage" className="link-body-emphasis d-inline-flex text-decoration-none rounded">fetch</Link></li>
+            <li><Link to="mychart" className="link-body-emphasis d-inline-flex text-decoration-none rounded">chart</Link></li>
           </ul>
         </div>
       </li>
