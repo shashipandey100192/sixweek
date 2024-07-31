@@ -1,0 +1,172 @@
+react.js
+==========================
+1) about react.js:
+2) install in your system
+	1) node.js
+	2) git bash
+	3) git account
+3) default port(adddress) no: 3000 
+4) use virtual object(this is fast)
+5) what is npm(node package manager) ? 
+6) what is flag ?
+7) CLI vs GUI 
+8) create new project of react
+	npx create-react-app sixweek
+note: project name must have small letter
+9) file and folder 
+10) npm start   // run , start, server
+11) ctrl+c	// close server
+---------------------------------------------------
+Note: errorno no -4058
+	npm install -g typescript
+12) types of import and export
+	1) name import and export  {}
+	2) default import and export
+Note: one file has one default function
+Note: one function has one return
+Note: file name and function name must have start from Capital letter
+Note: replace class  to className  
+Note: replace  a    to  Link
+Note: replace href  to  to
+Note: return an single element
+13) elements wrap
+	1) html element
+	2) <></>  blank
+	3) <Fragment> 
+14) file format
+	1) .js
+	2) .jsx
+	3) .ts
+	4) .tsx
+15) expression {} 
+16) UI compoents
+	1) bootstrap
+	2) react-bootstrap
+	3) MUI
+	4) custom( html,css,js)
+17) bootstrap(package)
+     1) install
+	npm install bootstrap		// latest version of bootstrap
+	npm install bootstrap@4.0.0	// install particular version of package
+	npm uninstall bootstrap		// uninstall bootstrap
+    2) import ( in root file)
+	import "bootstrap/dist/css/bootstrap.min.css";
+	import "bootstrap/dist/js/bootstrap.bundle.js";
+--------------------------------------------------------
+18) git
+	1) git login
+	2) crete repo
+note: repo name and project name must have same
+	3) git init 		// initialized
+	4) git remote -v	// check your connection
+	5) git remote add origin "path"		// create connection 
+	6) git add --all	// add all data on git 
+	7) git commit -m "msg"	// any message for change
+	8) git push origin master  // push data on github
+	9) git clone "path"	   // clone your project
+	10) npm install		// install node_modules or update node package
+	---------------------------
+		git add --all
+		git commit -m "msg"
+		git pull origin master
+		npm install      // when install new package
+	--------------------------- 
+19) react routing
+	1) install
+		npm install react-router-dom
+	2) import 
+		import { BrowserRouter,Routes,Route } from 'react-router-dom';
+20) error page(404) Not Found Page
+21) custom style sheet
+	Note: create style.css and import into index.js 
+		import "./style.css";
+
+22) nested routing
+	Outlet 
+--------------------------------------
+23) hooks (function)
+	1) rules 
+		a) can't use inside condition satement
+		b) can't use inside function
+		c) can't use bottom of code 
+		b) use after import
+	2) list of Hooks 
+		a) useState()
+		b) useEffect()
+		c) useRef()
+		b) useSelector()
+				...
+-----------------------------------------
+24) icons
+	1) npm install react-icons --save
+	2) import 
+25) props
+-------------------------------------------
+26) api / network cell
+	1) fetch()	// core function in js
+	2) axios()	// lib in react js
+
+	
+27) what is http ? 	// object
+	1) res(object)
+	2) res(object)
+28) http mehtods
+	1) get()
+	2) post()
+	3) patch()
+	4) put()
+	5) delete()
+29) http response code 
+	Informational responses (100 – 199)
+	Successful responses (200 – 299)
+	Redirection messages (300 – 399)
+	Client error responses (400 – 499)
+	Server error responses (500 – 599)
+30) fetch api
+	Note:  convert data into json 		// json()
+31) axios
+	1) npm install axios			
+	2) import 
+Note: key    // Each child in a list should have a unique "key" prop.
+---------------------------------------------------
+32) live  (deployment on live server)
+	1) login render
+	2) select static site
+	3) config...
+33) form validation
+	1) custom
+	2) lib ( react-hook-form)
+		1) npm install react-hook-form		
+		2) import
+-----------------------------------------------------
+34) param routing
+	1) send id on url
+	2) get id from url
+		const {id} = useParam()
+	3) pass id with url(api)
+		  axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+35) Graph(chart)
+	1) npm install recharts
+	2) import
+ 
+
+
+	
+	
+
+	
+
+		
+
+
+
+	
+	
+	
+	
+
+	 
+
+	
+	
+ 
